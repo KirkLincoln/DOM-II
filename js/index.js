@@ -38,6 +38,7 @@ document.addEventListener("keydown", event => {
         null;
     }) :
     null
+    event.stopPropagation();
 });
 
 document.addEventListener("click", event => {
